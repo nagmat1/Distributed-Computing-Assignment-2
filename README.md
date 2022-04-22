@@ -22,5 +22,14 @@ I designed two functions :
 1. Coordinater : Rank 0 is the coordinator which coordinates all the actions. At the same time, Rank 0 is acting as a participant.  
 2. Participant : All the nodes are acting as a participant and Voting. 
 
-Execution : ``` mpiexec python3 pa2.py 4 ``` is running 4 nodes and Rank 0 is the Coordinator. 
+#Requirements: 
+``` 
+apt install openmpi-bin 
+```
+#Using pip
+```
+pip install mpi4py 
+```
 
+# To compile : 
+``` mpiexec python3 pa2.py 4 ``` is running 4 nodes and Rank 0 is the Coordinator. 
