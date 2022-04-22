@@ -32,4 +32,6 @@ pip install mpi4py
 ```
 
 # To compile : 
-``` mpiexec python3 pa2.py 4 ``` is running 4 nodes and Rank 0 is the Coordinator. 
+``` mpiexec python3 pa2.py 4 ``` 
+
+is running 4 nodes and Rank 0 is the Coordinator. 
