@@ -22,11 +22,11 @@ I designed two functions :
 1. Coordinater : Rank 0 is the coordinator which coordinates all the actions. At the same time, Rank 0 is acting as a participant.  
 2. Participant : All the nodes are acting as a participant and Voting. 
 
-#Requirements: 
+# Requirements: 
 ``` 
 apt install openmpi-bin 
 ```
-#Using pip
+# Using pip
 ```
 pip install mpi4py 
 ```
